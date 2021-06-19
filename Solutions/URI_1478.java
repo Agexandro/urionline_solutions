@@ -16,17 +16,25 @@ public class URI_1478 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
         int number;
+        int value;
 
         while ((number = read.nextInt()) != 0) {
             for (int row = 1; row <= number; row++) {
-                int value = row;
-                System.out.printf("%3d", value);
+                value = row;
+                for (int col = 1; col <= number; col++) {
+                    if (row == col) {
+                        value = 1;
 
-                for (int col = 2; col <= number; col++) {
-                    if (--value == 0) {
-                        value = -2;
                     }
-                    System.out.printf(" %3d", Math.abs(value));
+                    System.out.printf("%3d", value);
+                    if(col < number){
+                        System.out.print(" ");
+                    }
+                    if (col >= row) {
+                        value++;
+                    } else {
+                        value--;
+                    }
 
                 }
                 System.out.println("");
