@@ -24,6 +24,5 @@ public class URI_1759 {
             }
         }
         System.out.println("!");
-
     }
 }
