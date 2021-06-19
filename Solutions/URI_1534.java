@@ -6,8 +6,6 @@
 package Solutions;
 
 import java.util.Scanner;
-
-
 /**
  *
  * @author alex

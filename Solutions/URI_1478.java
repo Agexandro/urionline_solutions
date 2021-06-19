@@ -35,7 +35,6 @@ public class URI_1478 {
                     } else {
                         value--;
                     }
-
                 }
                 System.out.println("");
             }
