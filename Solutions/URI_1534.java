@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author alex
  */
-public class SquareMatrixI {
+public class URI_1534 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
